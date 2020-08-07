@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="css/sss/main.css" rel="stylesheet" media="all">
 </head>
 
 <body>
@@ -29,41 +29,41 @@
                 <div class="card-body">
                     <form method="POST">
                         <div class="form-row">
-                            <div class="name">Date </div>
+                            <div class="name">Drivers Name </div>
                             <div class="value">
-                                <input class="input--style-6" type="date" name="date">
+                                <input class="input--style-6" type="Dname" name="Dname">
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Time </div>
+                            <div class="name">Date </div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-6" type="time" name="time">
+                                    <input class="input--style-6" type="date" name="date">
                                 </div>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="name">Start Meter</div>
+                                            <div class="form-row">
+                            <div class="name">Start Time</div>
                             <div class="value">
                                 <div class="input-group">
-                            <input class="input--style-6" type="text" name="smeter" placeholder="Enter the starting Meter">
+                            <input class="input--style-6" type="text" name="stime" placeholder="Enter the starting Time">
                                 </div>
                             </div>
                         </div>
                           <div class="form-row">
-                            <div class="name">End Meter</div>
+                            <div class="name">Start Meter</div>
                             <div class="value">
                                 <div class="input-group">
-                            <input class="input--style-6" type="text" name="Emeter" placeholder="Enter the End Meter">
+                            <input class="input--style-6" type="text" name="stime" placeholder="Enter the Start Meter">
                                 </div>
                             </div>
                         </div>
 
                           <div class="form-row">
-                            <div class="name">Starting Time </div>
+                            <div class="name">End Time </div>
                             <div class="value">
                                 <div class="input-group">
-                            <input class="input--style-6" type="time" name="stime" placeholder="Enter the starting Time ">
+                            <input class="input--style-6" type="text" name="etime" placeholder="Enter the End Time ">
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                             <div class="name">End Meter</div>
                             <div class="value">
                                 <div class="input-group">
-                            <input class="input--style-6" type="text" name="Etime" placeholder="Enter the End Time">
+                            <input class="input--style-6" type="text" name="emeter" placeholder="Enter the End Meter">
                                 </div>
                             </div>
                         </div>
@@ -82,16 +82,25 @@
                             <input class="input--style-6" type="text" name="tkms " placeholder="Enter the total Kilometers ">
                                 </div>
                             </div>
-                        </div>
-                          <div class="form-row">
-                            <div class="name">  Drivers name </div>
+                        </div>  
+                        <div class="form-row">
+                            <div class="name">Total Fee  </div>
                             <div class="value">
                                 <div class="input-group">
-                            <input class="input--style-6" type="text" name="dname" placeholder="Enter the Drivers name ">
+                            <input class="input--style-6" type="text" name="Fee" placeholder="Enter The Total Fee">
                                 </div>
                             </div>
                         </div>
-                 <div class="form-row">
+           
+                          <div class="form-row">
+                            <div class="name">Destination </div>
+                            <div class="value">
+                                <div class="input-group">
+                            <input class="input--style-6" type="text" name="npass" placeholder="No of passengers">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
                             <div class="name">Passengers Name </div>
                             <div class="value">
                                 <div class="input-group">
@@ -100,7 +109,7 @@
                             </div>
                         </div>
                           <div class="form-row">
-                            <div class="name">No Of Passengers </div>
+                            <div class="name"> Passenger's Contact No </div>
                             <div class="value">
                                 <div class="input-group">
                             <input class="input--style-6" type="text" name="npass" placeholder="No of passengers">
@@ -125,6 +134,21 @@
 
     <!-- Main JS-->
     <script src="js/global.js"></script>
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.17.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.17.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
